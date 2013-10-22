@@ -1,4 +1,4 @@
-@import url(reset.css);
+/*@import url(reset.css);*/
 @import url(http://fonts.googleapis.com/css?family=Carrois+Gothic+SC);
 @import url(http://fonts.googleapis.com/css?family=Pathway+Gothic+One);
 @import url(http://fonts.googleapis.com/css?family=Ubuntu+Condensed);
@@ -10,6 +10,7 @@ body {
 	font-family: 'Ubuntu Condensed', sans-serif;
 	font-size: 16px;
 	padding-top: 70px;
+	padding-bottom: 100px;
 }
 
 p {
@@ -37,6 +38,7 @@ p {
 .store-logo {
 	float: left;
 	margin-left: 20px;
+	margin-bottom: -15px;
 	height: 38px;
 	width: 128px;
 }
@@ -55,7 +57,7 @@ p {
 	width: 25px;
 }
 nav ul {
-	background-color: #ECF1EF;
+	background-color: #FFF;
 	border-radius: 5px;
 	margin: 0 auto;
 }
@@ -73,16 +75,17 @@ nav a:link,
 nav a:visited {
 	text-decoration: none;
 }
-nav a:hover {
+/*nav a:hover {
 	background-color: #CCC7A7;
 	border-radius: 5px;
-}
+}*/
 .main-pictures {
 	display: block;
 	margin: 0 auto;
 	margin-top: 20px;
-	height: 300px;
-	width: 450px;
+	margin-bottom: 20px;
+	height: 75%;
+	width: 75%;
 }
 h1 {
 	font-family: 'Pathway Gothic One', sans-serif;
@@ -90,6 +93,7 @@ h1 {
 	font-size: 36px;
 	color: #363C74;
 	padding: 10px;
+	text-align: center;
 	text-decoration: underline;
 	margin-bottom: -10px;
 }
@@ -125,6 +129,10 @@ h3 {
 	margin-left: 20px;
 }
 .footer {
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	left: 0;
 	margin-top: 50px;
 	border-top: thin solid #A9A9A9;
 	font-size: 80%;
