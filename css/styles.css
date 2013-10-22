@@ -1,0 +1,132 @@
+@import url(reset.css);
+@import url(http://fonts.googleapis.com/css?family=Carrois+Gothic+SC);
+@import url(http://fonts.googleapis.com/css?family=Pathway+Gothic+One);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Condensed);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Yellowtail);
+
+body {
+	background-image: url(../img/gray-texture.jpg);
+	font-family: 'Ubuntu Condensed', sans-serif;
+	font-size: 16px;
+	padding-top: 70px;
+}
+
+p {
+	padding: 10px;
+}
+
+.content {
+	margin: 0 auto;
+	width: 60%;
+	padding: 10px;
+	border: 1px solid #CCC;
+	background-color: #EBE4C4;
+	box-shadow: 1px 1px 6px #444;
+}
+
+.store-name {
+	text-align: center;
+	font-family: 'Carrois Gothic SC', sans-serif;
+	font-weight: bold;
+	font-size: 56px;
+	color: #363C74;
+	margin-bottom: -20px;
+}
+
+.store-logo {
+	float: left;
+	margin-left: 20px;
+	height: 38px;
+	width: 128px;
+}
+
+.description {
+	text-align: center;
+	font-family: 'Yellowtail', sans-serif;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+/*.contact {
+	font-family: 'Ubuntu Condensed', sans-serif;
+}*/
+.contact-icon {
+	height: 25px;
+	width: 25px;
+}
+nav ul {
+	background-color: #ECF1EF;
+	border-radius: 5px;
+	margin: 0 auto;
+}
+nav li {
+	display: inline-block;
+}
+nav a {
+	display: inline-block;
+	padding: 10px;
+	color: #BF8F30;
+	font-weight: bold;
+	font-size: 110%;
+}
+nav a:link,
+nav a:visited {
+	text-decoration: none;
+}
+nav a:hover {
+	background-color: #CCC7A7;
+	border-radius: 5px;
+}
+.main-pictures {
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+	height: 300px;
+	width: 450px;
+}
+h1 {
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-weight: bold;
+	font-size: 36px;
+	color: #363C74;
+	padding: 10px;
+	text-decoration: underline;
+	margin-bottom: -10px;
+}
+h2 {
+	font-family: 'Yellowtail', sans-serif;
+	color: #B44418;
+	font-weight: bold;
+	padding: 20px;
+	font-size: 32px;
+}
+.pizza-size {
+	margin-left: 20px;
+}
+.pizza-custom {
+	color: #B44418;
+	font-size: 20px;
+	font-weight: bold;
+}
+h3 {
+	margin-top: 10px;
+	font-weight: bold;
+}
+.pie-name {
+	margin-top: 10px;
+	margin-left: 20px;
+	font-style: italic;
+}
+.pie-description {
+	margin-left: 40px;
+	font-style: normal;
+}
+.menu-indent {
+	margin-left: 20px;
+}
+.footer {
+	margin-top: 50px;
+	border-top: thin solid #A9A9A9;
+	font-size: 80%;
+	font-style: italic;
+}
